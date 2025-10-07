@@ -1,0 +1,10 @@
+Metric,Value
+Total_Episodes,500
+Avg_Waiting_Time,329.24
+Avg_Queue_Length,42.77
+Avg_Throughput,24.2304
+Total_Violations,0
+Avg_Violations_Per_Episode,0.0
+Total_Phase_Violations,0
+Total_Duration_Violations,0
+Total_Env_Violations,81600

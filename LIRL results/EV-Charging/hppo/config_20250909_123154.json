@@ -1,0 +1,52 @@
+{
+  "lr_high": 0.0003,
+  "lr_low": 0.0003,
+  "lr_critic": 0.001,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip_ratio": 0.2,
+  "batch_size": 64,
+  "buffer_size": 2048,
+  "epochs_per_update": 4,
+  "n_stations": 5,
+  "p_max": 150,
+  "arrival_rate": 0.75,
+  "num_of_episodes": 1000,
+  "high_policy_dims": [
+    128,
+    64
+  ],
+  "low_policy_dims": [
+    64,
+    32
+  ],
+  "critic_dims": [
+    128,
+    64
+  ],
+  "high_level_horizon": 5,
+  "max_discrete_actions": 25,
+  "continuous_action_dim": 1,
+  "entropy_coef": 0.01,
+  "value_loss_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "enable_multi_run": true,
+  "seeds": [
+    3047,
+    294,
+    714,
+    1092,
+    1386,
+    2856,
+    42,
+    114514,
+    2025,
+    1993
+  ],
+  "num_runs": 10,
+  "max_test_steps": 288,
+  "print_interval": 10,
+  "enable_gantt_plots": false,
+  "plot_training_curve": true,
+  "save_models": true
+}

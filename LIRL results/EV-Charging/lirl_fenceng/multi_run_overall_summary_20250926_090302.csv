@@ -1,0 +1,11 @@
+Metric,Mean,Std,Min,Max,Unit
+Total Arrivals per Run,40924.2,215.63,40623,41324,vehicles
+Total Charged per Run,37079.7,167.19,36857,37327,vehicles
+Total Left Uncharged per Run,3022.6,62.78,2967,3162,vehicles
+Success Rate per Run,90.65,0.14,90.37,90.81,%
+Average Revenue per Run,12101.24,78.03,12002.93,12200.42,currency
+Average Energy per Run,11456.42,64.0,11379.06,11540.56,kWh
+Average Power per Run,150.0,0.0,150.0,150.0,kW
+Average Station Utilization per Run,51.09,1.8,47.9,53.4,%
+Total Violations per Run,0.0,0.0,0,0,violations
+Violation Rate per Run,0.0,0.0,0.0,0.0,%

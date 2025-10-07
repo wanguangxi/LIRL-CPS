@@ -1,0 +1,40 @@
+{
+  "lr_actor": 0.0001,
+  "lr_critic": 0.001,
+  "gamma": 0.99,
+  "tau": 0.001,
+  "batch_size": 128,
+  "buffer_size": 100000,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.01,
+  "epsilon_decay": 0.995,
+  "update_frequency": 4,
+  "num_of_episodes": 500,
+  "q_network_dims": [
+    256,
+    128
+  ],
+  "param_network_dims": [
+    128,
+    64
+  ],
+  "warmup_steps": 1000,
+  "target_update_freq": 100,
+  "enable_multi_run": true,
+  "seeds": [
+    3047,
+    294,
+    714,
+    1092,
+    1386,
+    2856,
+    42,
+    114514,
+    2025,
+    1993
+  ],
+  "max_test_steps": 3600,
+  "print_interval": 10,
+  "plot_training_curve": true,
+  "save_models": true
+}

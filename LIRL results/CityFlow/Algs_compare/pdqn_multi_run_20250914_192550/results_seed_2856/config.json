@@ -1,0 +1,32 @@
+{
+  "lr_mu": 0.0005,
+  "lr_q": 0.001,
+  "gamma": 0.98,
+  "batch_size": 128,
+  "buffer_limit": 100000,
+  "tau": 0.005,
+  "num_of_episodes": 500,
+  "memory_threshold": 500,
+  "training_iterations": 20,
+  "noise_params": {
+    "theta": 0.1,
+    "dt": 0.05,
+    "sigma": 0.1
+  },
+  "print_interval": 25,
+  "save_models": true,
+  "plot_training_curve": true,
+  "use_gpu": true,
+  "seeds": [
+    3047,
+    294,
+    714,
+    1092,
+    1386,
+    2856,
+    42,
+    114514,
+    2025,
+    1993
+  ]
+}

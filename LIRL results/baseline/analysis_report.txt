@@ -1,0 +1,20 @@
+Algorithm Comparison Analysis Report
+==================================================
+Analysis directory: d:\Projects\RMS_V3.0\Compare
+Number of algorithms: 6
+
+Algorithm Overview:
+  - CPO+Mask: 10 runs, 1000 episodes per run
+  - LIRL: 10 runs, 1000 episodes per run
+  - HPPO+Mask: 10 runs, 1000 episodes per run
+  - HyAR+Mask: 10 runs, 1000 episodes per run
+  - PDQN+Mask: 10 runs, 1000 episodes per run
+  - SAC-Lag+Mask: 10 runs, 1000 episodes per run
+
+Performance Summary:
+  1. LIRL: -31.7189 ± 0.8963
+  2. HyAR+Mask: -36.2438 ± 1.7253
+  3. PDQN+Mask: -57.0270 ± 4.8070
+  4. HPPO+Mask: -72.2336 ± 22.4477
+  5. SAC-Lag+Mask: -83.1838 ± 11.2577
+  6. CPO+Mask: -99.6185 ± 35.9108

@@ -1,0 +1,12 @@
+Metric,Mean,Std,Min,Max,Unit
+Algorithm,PDQN,PDQN,PDQN,PDQN,method
+Total Arrivals per Run,204000.7,7358.1,182211,207832,vehicles
+Total Charged per Run,142616.5,17895.84,91291,154587,vehicles
+Total Left Uncharged per Run,57155.2,10722.34,49267,85351,vehicles
+Success Rate per Run,69.68,6.93,50.23,74.44,%
+Average Revenue per Run,9597.37,1292.85,5883.28,10457.32,currency
+Average Energy per Run,8778.05,1161.83,5442.21,9549.53,kWh
+Average Power per Run,126.28,23.47,57.14,142.09,kW
+Average Station Utilization per Run,51.75,9.39,45.98,79.18,%
+Total Violations per Run,50181.6,7690.61,44651,72491,violations
+Violation Rate per Run,24.77,3.44,21.36,32.72,%

@@ -1,0 +1,7 @@
+﻿Metric,hppo,lirl,pdqn
+Average Energy per Run,5681.516,11368.43,8778.05
+Average Power per Run,109.434722,146.95,126.28
+Average Revenue per Run,6157.976000000001,12455.53,9597.37
+Average Station Utilization per Run,44.56400000000001,52.11,51.75
+Success Rate per Run,46.515932504969975,90.4,69.68
+Violation Rate per Run,57.33959599999999,0.0,24.77
